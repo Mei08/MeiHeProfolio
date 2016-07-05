@@ -4064,7 +4064,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #e5e5e5;
 }
 .nav > li > a > img {
-  max-width: none;
+  max-width: 80%;
 }
 .nav-tabs {
   border-bottom: 1px solid #ecf0f1;
@@ -4734,6 +4734,9 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link:focus {
   color: #2c3e50;
+}
+.navbar-brand {
+    width:35%;
 }
 .navbar-inverse .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-inverse .btn-link:hover,

@@ -265,3 +265,11 @@ a #arrow {
 blockquote {
  color:#989898 ;
 }
+
+
+@media(max-width:568px) {
+ .navbar-brand {
+     width: 44%;
+ }
+    
+}
