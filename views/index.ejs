@@ -1,12 +1,26 @@
 <%- include partials/header.ejs %>
   
        <div class="row" id="welcomeInf">
-           <p><img id="headinglogo"src="/images/logo1.png" widht="15%" /><br>Hi, I am Mei He!&nbsp;<br>Welcome to my page !<br><br>
-           <a href="#portfolio">  <img id="arrow" src="/images/thin-arrowheads-pointing-down.png" /> </a></p>
-        
+           <p>
+                <img id="headinglogo"src="/images/logo1.png" widht="15%" />
+               <br>Hi, I am Mei He!&nbsp;<br>Welcome to my page !<br><br>
+               <a href="#portfolio">  <img id="arrow" src="/images/thin-arrowheads-pointing-down.png" /> </a>
+           </p>
       </div>
        
-      
+         <article id="introduction">
+        <div class="container" role="article">
+            <div class="row" >
+               <div class="col-md-4 col-md-offset-2"> <img id="headinglogo"src="/images/photo1.png" hight="5%" /></div>
+                <div class="col-sm-5">    
+                    <h2 class="section-heading" aria-busy="true" aria-live="polite" role="heading">Introduction</h2>
+                    <p>Hello, my name is Mei He. I graduated from Georgian College in Interactive Web Design. My intention is to continue building relevant experience in my field. </p>
+                    <blockquote>"Keep learning and try again! " </blockquote>
+                   <br> <a href="/images/resume.pdf" target="_blank" ><h4>Resume</h4></a>
+                    </div>
+                 </div>
+               </div>
+          </article>
     <!-- Page Header -->
      <section id="portfolio">
    <header>
@@ -14,9 +28,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-text"> 
-                        <div class="col-sm-4"><img src="/images/favorite-heart-button.png" /><h1><a href="/project">My Projects</a></h1> <p>My passion is applying creativity for marketing communications. I have experience in designing user interfaces, logos, graphic design and print media.  </p> <a href="/project"><img id="linkbtn" src="/images/link.png" /> </a>  </div>
-                        <div class="col-sm-4"> <img id="could" src="/images/glasses.png"/><img id="sign" src="/images/sign.png"  /></div>
-                        <div class="col-sm-4"><img src="/images/code.png" /><h1><a href="https://github.com/Mei08">< Code /></a></h1><p>My expertise is primarily front-end web development and I have acquired practical experience in coding HTML, css, jQuery, Node.js and PHP.</p><a href="https://github.com/Mei08"><img id="linkbtn" src="/images/link.png" /> </a></div>
+                        <div class="col-sm-4"><img src="/images/favorite-heart-button.png" /><h1><a href="/project">My Projects</a></h1> <!--<p>My passion is applying creativity for marketing communications. I have experience in designing user interfaces, logos, graphic design and print media.  </p>--> <a href="/project"><img id="linkbtn" src="/images/link.png" /> </a>  </div>
+                        <div class="col-sm-4"> <img id="could" src="/images/glasses.png"/><!--<img id="sign" src="/images/sign.png"  />--></div>
+                        <div class="col-sm-4"><img src="/images/code.png" /><h1><a href="https://github.com/Mei08">< Code /></a></h1><!--<p>My expertise is primarily front-end web development and I have acquired practical experience in coding HTML, css, jQuery, Node.js and PHP.</p>--><a href="https://github.com/Mei08"><img id="linkbtn" src="/images/link.png" /> </a></div>
                         
                       
                     </div>
@@ -25,22 +39,11 @@
         </div>
     </header>
 </section> 
-   
-     <section class="success" id="about">
+    <!--
+    <section class="success" id="about">
     <!-- Main Content -->
-       <article id="introduction">
-        <div class="container" role="article">
-            <div class="row" >
-               <div class="col-md-3 col-md-offset-2"><img src="/images/copy.jpg" /></div>
-                <div class="col-sm-6">    
-                    <h2 class="section-heading" aria-busy="true" aria-live="polite" role="heading">Introduction</h2>
-                    <p>Hello, my name is Mei He. I graduated from Georgian College in Interactive Web Design. My intention is to continue building relevant experience in my field. </p>
-                    <blockquote>"Keep learning and try again! " </blockquote>
-                    </div>
-                 </div>
-               </div>
-          </article>
-          
+    
+    <!---      
             <div class="container">
   <div class="page-header">
     <h1 id="timeline">My Timeline</h1>
@@ -100,8 +103,10 @@ This position required me to design the layouts of a newspaper and marketing bro
     </li>
   </ul>
 </div>  
-</section>
+</section>  -->
  
+ 
+ <!--
   <section id="contact">
         <div class="container">
             <div class="row">
@@ -114,7 +119,8 @@ This position required me to design the layouts of a newspaper and marketing bro
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    
+                  <!--     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -153,9 +159,8 @@ This position required me to design the layouts of a newspaper and marketing bro
                     </form>
                 </div>
             </div>
-        </div>
-    </section>
-
- 
+        </div>   
+    </section> 
+-->
 
  <%- include partials/footer.ejs %>

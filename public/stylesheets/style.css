@@ -249,6 +249,7 @@ a:hover #linkbtn  {
 /* ABOUT STARTS FORM HERE */
 #about {
     color:rgb(40,40,40) ;
+    padding: 10px;
 }
 a #arrow {
      animation: shimmy 3s infinite;
@@ -266,7 +267,11 @@ blockquote {
  color:#989898 ;
 }
 
-
+#portfolio {
+ 
+    padding-bottom: 0;
+    margin-bottom:0px;
+}
 @media(max-width:568px) {
  .navbar-brand {
      width: 44%;
